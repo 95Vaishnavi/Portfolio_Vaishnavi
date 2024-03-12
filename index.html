@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Daware - Web Developer</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <!-- 
+    - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+
+</head>
+<body>
+   <!---Header-->
+   <header class="header" data-header>
+    <div class="container">
+        <a href="#">
+            <h1 class="logo">Vaishnavi Daware</h1>
+        </a>
+
+        <button class="nav-toggle-btn active" aria-label="Toggle Menu" data-nav-toggle-btn >
+            <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+            <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+
+        <nav class="navbar container">
+            <ul class="navbar-list">
+                <li>
+                    <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="navbar-link" data-nav-link>About</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                </li>
+
+                <li>
+                    <a href="https://drive.google.com/drive/folders/1SHZpYHoj-hpimY1MlNYrf6kZFIcd2Bxl?usp=drive_link" class="btn btn-primary">Download CV</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+   </header>
+
+   <main>
+    <article>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-banner">
+                    <img src="./images/photo.jpg" width="800" height="864" loading="lazy"
+                     alt="Vaishnavi's Photo" class="img-cover">
+                     <div class="elem elem-1">
+                        <p class="elem-title">BTECH</p>
+                        <p class="elem-text">CSE</p>
+                     </div>
+                     <div class="elem elem-2">
+                        <p class="elem-title">15+</p>
+                        <p class="elem-text">Projects Completed</p>
+                     </div>
+
+                     <div class="elem elem-3">
+                        <ion-icon name="trophy"></ion-icon>
+                     </div>
+
+                     <img src="./images/full.png" width="500" height="500" 
+                     alt="I'm full stack developer" class="rotate-img">
+
+
+
+                </div>
+
+                <div class="hero-content">
+                    <h2 class="hero-title">
+                        <span>Hello I'm</span>
+                        <strong>Vaishnavi Daware</strong> Full Stack Developer
+                    </h2>
+                    <p class="hero-text">
+                        Passionate Full Stack Developer with a knack for turning innovative ideas into robust, scalable, and user-friendly web applications.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+                        <a href="#about" class="btn ">About Me</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container">
+                <figure class="about-banner">
+                    <img src="./images/back.png" width="800" height="652" loading="lazy"
+                     alt="" class="img-cover">
+
+                     <!--<img src="" width="800" height="717" loading="lazy"
+                     alt="" class="abs-img">-->
+
+                     <div class="abs-icon abs-icon-1">
+                        <ion-icon name="logo-react"></ion-icon>
+                     </div>
+
+                     <div class="abs-icon abs-icon-2">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                     </div>
+
+                     <div class="abs-icon abs-icon-3">
+                        <ion-icon name="logo-nodejs"></ion-icon>
+                     </div>
+                     <div class="abs-icon abs-icon-4">
+                        <ion-icon name="logo-css3"></ion-icon>
+                     </div>
+
+                     <div class="abs-icon abs-icon-5">
+                        <ion-icon name="logo-html5"></ion-icon>
+                     </div>
+                     
+
+                </figure>
+
+                <div class="about-container">
+                    <p class="section-subtitle">I'm a Developer</p>
+                    <h2 class="h2 section-title">I Develop Application that Help People</h2>
+
+                    <p class="section-text">
+                        I love problem-solving and believe that every line of code should contribute to the overall success of a project. I approach challenges methodically, combining analytical thinking with creativity to deliver elegant solutions.
+                    </p>
+
+                    <p class="section-text">
+                        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+                    </p>
+                    <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--#portfolio-->
+        <section class="section portfolio" id="portfolio">
+            <div class="container">
+                <p class="section-subtitle">Portfolio</p>
+                <h2 class="h2 section-title">My Amazing Works</h2>
+                <p class="section-text">
+                    Successfully designed and implemented a dynamic web application using the MERN (MongoDB, Express.js, React, Node.js) stack, coupled with HTML, CSS, and JavaScript, to deliver a seamless user experience and efficient data management. 
+                </p>
+
+                <ul class="portfolio-list">
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/Alumni_Tracking_System" class="portfolio-card" style="background-image: url('./images/save.jpg')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">MERN Stack</p>
+                            <h3 class="h3 card-title">Web Application for Alumni</h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/E-commerce_Dashboard" class="portfolio-card" style="background-image: url('./images/shop.jpeg')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">MERN Stack</p>
+                            <h3 class="h3 card-title">E-Commerce Dashbord</h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/Gro-Field" class="portfolio-card" style="background-image: url('./images/gro.webp')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">Machine Learning</p>
+                            <h3 class="h3 card-title">Gro Field</h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/Weather_App" class="portfolio-card" style="background-image: url('./images/weather.jpeg')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">HTML,CSS,JavaScript</p>
+                            <h3 class="h3 card-title">Weather App </h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/Latest_Portfolio.git" class="portfolio-card" style="background-image: url('./images/port.jpg')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">HTML,CSS,JavaScript</p>
+                            <h3 class="h3 card-title">Personal Portfolio </h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/95Vaishnavi/See-Me" class="portfolio-card" style="background-image: url('./images/image.jpg')" >
+                        <div class="card-content">
+                            <p class="card-subtitle">Image Processing</p>
+                            <h3 class="h3 card-title">See Me </h3>
+                            <span class="btn-link">
+                                <span>View Project</span>
+                                <ion-icon name="arrow-forward" ></ion-icon>
+                            </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
+
+        <!-- #skills -->
+        <div class="section skills" id="skills">
+            <div class="container">
+                <p class="section-subtitle">My Skills</p>
+                <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+                <p class="section-text">
+                    Proficient in leveraging cutting-edge technologies and a versatile skill set to drive innovative solutions in development.
+                </p>
+
+                <ul class="skills-list">
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 95%">
+                            <h3 class="skills-title">HTML</h3>
+                            <data class="skills-data" value="95" >95%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 95%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 95%">
+                            <h3 class="skills-title">CSS</h3>
+                            <data class="skills-data" value="95" >95%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 95%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 90%">
+                            <h3 class="skills-title">JavaScript</h3>
+                            <data class="skills-data" value="90" >90%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 90%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 85%">
+                            <h3 class="skills-title">React</h3>
+                            <data class="skills-data" value="85" >85%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 85%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 80%">
+                            <h3 class="skills-title">Nodejs</h3>
+                            <data class="skills-data" value="80" >80%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 80%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 90%">
+                            <h3 class="skills-title">MongoDB</h3>
+                            <data class="skills-data" value="90" >90%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 90%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 95%">
+                            <h3 class="skills-title">C++</h3>
+                            <data class="skills-data" value="95" >95%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 95%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 95%">
+                            <h3 class="skills-title">OOP</h3>
+                            <data class="skills-data" value="95" >95%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 95%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 80%">
+                            <h3 class="skills-title">Data Structure</h3>
+                            <data class="skills-data" value="80" >80%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 80%"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="wrapper" style="width: 90%">
+                            <h3 class="skills-title">SQL</h3>
+                            <data class="skills-data" value="90" >90%</data>
+                        </div>
+
+                        <div class="skills-progress-box">
+                            <div class="skills-progress" style="width: 90%"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--#contact-->
+       <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <p class="card-subtitle">Contact</p>
+                <h2 class="h2 section-title">Drop Me a Line</h2>
+                <div class="wrapper">
+                    <form action="https://formspree.io/f/mleqdvkz"
+                    method="POST" class="contact-form">
+                        <input type="text" name="name" placeholder="Name" required class="contact-input">
+                        <input type="email" name="email" placeholder="Email" required class="contact-input">
+                        <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                        <button type="submit" class="btn-submit">Submit Message</button>
+                    </form>
+
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <div class="contact-icon">
+                                <ion-icon name="location" ></ion-icon>
+                            </div>
+                            <div>
+                                <h3 class="contact-item-title">Address</h3>
+
+                                <address class="contact-item-link">
+                                    Nashik, Maharashtra
+                                </address>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="contact-icon">
+                                <ion-icon name="mail" ></ion-icon>
+                            </div>
+                            <div>
+                                <h3 class="contact-item-title">Email</h3>
+
+                                <a href="mailto:vaishnavidaware16@gmail.com" class="contact-item-link">vaishnavidaware16@gmail.com</a>
+
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="contact-icon">
+                                <ion-icon name="call" ></ion-icon>
+                            </div>
+                            <div>
+                                <h3 class="contact-item-title">Phone</h3>
+
+                                <a href="tel:+919307823589" class="contact-item-link">+919307823589</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </section> 
+    </article>
+   </main>
+    
+
+    <script src="script.js"></script>
+     <!-- 
+    - ionicon link
+    -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
